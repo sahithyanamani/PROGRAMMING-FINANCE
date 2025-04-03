@@ -1,0 +1,54 @@
+Sahithya Namani
+SN807
+RUID - 219004323
+Assignment-3
+
+Steps to run the code:
+1. Unzip the .zip folder
+2. Go to command prompt to open the file where it has been saved
+3. Type command  g++ VectorFinal.cpp and press enter to compile the code for vector implentation
+4. Now type ./a.out command to run the code.
+5. Type command  g++ new.cpp and press enter to compile the code for matrix implementation.
+6. Now type ./a.out command to run the code.
+
+Working of both the implemntation si the same, just the way the data values are stored is diffrent.
+
+-in the main file we declare choice and a do while loop is executed such that the menu will be displayed
+atlest once. The condition fails when the user inputs 7 which is exit from program
+- Then the program prompts the user to enter matrix values depending upton the choice.
+- if they want to perform addition, substraction and multiplication then prompts to enetr two matrices
+- else only one matrix
+- the switch choice:
+    switch (choice)
+        {
+        case 1:
+            //addition
+            break;
+        case 2:
+            //Subtraction
+            break;
+        case 3:
+            //Multiplication
+            break;
+        case 4:
+            //determinant 
+            break;
+        case 5:
+            //Transpose
+            break;
+        case 6:
+            //Inverse
+            break;
+        case 7:
+            exit(0);
+            break;
+        default:
+            cout << "Enter Your Choice" << endl;
+            break;
+        }
+- Addition is performed on any matrix with any dimension but just that both the matrices must have same dimensions.
+- Substraction is performed on any matrix with any dimension but just that both the matrices must have same dimensions.
+- Multiplication is performed only when the col a and row b dimensions match.
+- determinant is performed only when the matix size is 3x3
+- Inverse is performed only when the matix size is 3x3
+- Transpose is performed with nxm
