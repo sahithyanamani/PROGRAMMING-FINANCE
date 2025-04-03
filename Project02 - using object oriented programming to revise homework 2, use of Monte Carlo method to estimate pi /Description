@@ -1,0 +1,11 @@
+Note: in Class04.zip, under Proj02 subfolder, where randGen.h, mainPgm.cpp, and a.out are found.
+
+Apply OO design to your homework assignment 2.
+Provide 3 service interfaces – implemented by 3 classes
+DebugPrint – debug utility, used in RandGen or FindPi as needed
+RandGen – random number generator, utility to generate random points
+FindPi – apply the above two utilities to debug and estimate 𝜋
+randGen.h (header file), mainPgm.cpp (the main program), a.out ( the executable) are given, please implement randGen.cpp (the implementation file)
+the purpose of .h, main, and executable is to smooth your learning curve and provide guidelines in learning OO design, not to suppress your creativity
+you may redesign the member functions and data members, but you need to at least have DebugPrint and RandGen utilities, and one FindPi service that can be called by main(), and main() can use it for doing something.
+submit your code and a readme file in a .zip file as usual.
