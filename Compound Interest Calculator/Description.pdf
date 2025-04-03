@@ -1,0 +1,21 @@
+Write a program that according to the given formula below, calculate the compound interest.
+
+The following is a standardized function name in this assignment to calcuate the results.  Please remember the main() is only a test program that tests the function compdInterestCcltr.
+
+Please include the debugPrint() to your code, exercise the 5 levels of severities concept during your coding.  Please submit a zip file that compresses a directory where your source code and a readme file can be found.  The readme file should explain how to run your program and explain the layout of your program.
+
+double compdInterestCcltr(double principle, float period, float itrstRate, int periodNum);
+
+The compound interest formula is:  A = P (1+r/n)nt
+
+Where:
+
+A = Future value of the investment
+
+P = Principal amount invested
+
+r = The rate of interest (decimals)
+
+n = Number of times interest gets compounded per period
+
+t = Number of periods the money is invested for
