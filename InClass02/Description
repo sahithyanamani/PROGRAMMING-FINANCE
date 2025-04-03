@@ -1,0 +1,13 @@
+Please submit a zip file including your 3 coding files. Also please add comments to describe your code.
+
+Read through all the sample codes provided to you under Class03. Understand the following points;
+how to implement a class object in c++ with both 2-file-separation and 3-file-separation. 
+Understand what is inexplicit conversion, how to avoid it using the “explicit” keyword. 
+Understand how initializer list works
+Understand how constant function and constant variable works, and how they are different from each other. 
+Understand how to manipulate class objects using set() and get() member functions. 
+Write a code in which you create your own class object, and your class object should meet the following requirements: 
+Implement your class, and organize your code in to 3 separate file (main.cpp, class header file, and class implementation.cpp) 
+The class constructor must contain the “explicit” keyword, and in the form of an initializer list. 
+Implement set(), get() member functions in your class
+In the main function, you must showcase how to instantiate your class (create a class object), and manipulate class data members via using set and get function. 
