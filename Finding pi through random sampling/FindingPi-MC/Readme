@@ -1,0 +1,20 @@
+Sahithya Namani
+SN807
+RUID - 219004323
+homework-2
+
+Steps to run the code:
+1. Unzip the .zip folder
+2. Go to command prompt to open the file where it has been saved
+3. Type command  g++ Picalculator.cpp and press enter to compile the code 
+4. Now type ./a.out command to run the code.
+
+Working:
+- The main class asks the user to input number of iterations.
+- the values of coradinates are randomly generated.
+we take input for no of iterations. We loop through each iteration
+and generate random x and y points. 
+If x^2 + y^2 <= 1 then I increament the count of pounts falling inside the circle by 1.
+In a square containing the quadrant circle. The value of pi will be - 
+pi = 4 * darts hitting the circle / darts hitting the square
+
