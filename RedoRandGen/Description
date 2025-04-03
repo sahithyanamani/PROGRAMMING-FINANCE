@@ -1,0 +1,5 @@
+Redo the game demonstrated in randGen03.cpp.  "redo" means without reference to the randGen03.cpp code, create the game on your own.  Please try to use the debug utility in your coding, and create a new .h or .hpp header file to hold your random number generator related functions that are needed to create the game.
+
+You are going to submit your source code together with a readme file that explains how to run your program and the layout of your program.  So, you put your source code and the readme file into a folder, compress the folder into a zip file, then submit the zip file.
+
+Again, spend time for this class is the only way to learn software development in a short period of time.
